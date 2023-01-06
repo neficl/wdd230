@@ -1,0 +1,104 @@
+@media only screen and (min-width: 650px) {
+    h1 {
+        font-size: 2.5rem;
+        margin: 1rem;
+        color: black;
+    }
+
+
+    body {
+        font-family: 'Noto Serif JP';
+    }
+
+    nav {
+        max-width: 640px;
+        margin: 1rem auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 1px;
+        border: 1px black;
+        padding: 1px;
+        background-color: steelblue;
+        border-radius: 25px;
+        border: 2px solid darkblue;
+        padding: 20px;
+        box-shadow: 10px 10px 5px lightblue;
+        flex: 1;
+    }
+
+    header {
+        max-width: 640px;
+        margin: 1rem auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border: 1px black;
+        padding: 1px;
+        background-color: steelblue;
+        border-radius: 25px;
+        border: 2px solid darkblue;
+        padding: 20px;
+        box-shadow: 10px 10px 5px lightblue;
+    }
+
+
+
+    a:link {
+        color: black;
+    }
+
+    main {
+        max-width: 640px;
+        margin-top: 1rem;
+        border: 1px black;
+        padding: 1px;
+        background-color: steelblue;
+        border-radius: 25px;
+        border: 2px solid darkblue;
+        padding: 10px;
+        box-shadow: 10px 10px 5px lightblue;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer {
+        max-width: 640px;
+        margin: 1rem auto;
+        border: 1px black;
+        color: white;
+        padding: 1px;
+        background-color: steelblue;
+        border-radius: 25px;
+        border: 2px solid darkblue;
+        padding: 20px;
+        box-shadow: 10px 10px 5px lightblue;
+    }
+
+    section {
+        background-color: white;
+        padding: 2rem;
+        border-radius: 25px;
+        border: 2px solid black;
+        padding: 1px;
+        list-style-type: none;
+    }
+
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+
+
+    li.nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li.nav a:hover {
+        background-color: #111;
+    }
+}
