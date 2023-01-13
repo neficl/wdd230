@@ -8,17 +8,32 @@
     <meta name="description" content="WDD 230 - Néi Coelho Leite - Course assignment portal">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Patrick+Hand&display=swap"
         rel="stylesheet">
+
+    <meta property="og:title" content="WDD 230 - Portal - Néfi Coelho Leite">
+    <meta property="og:type" content="WEB Site">
+    <meta property="og:img" content="images/balloons.png">
+    <meta property="og:url" content="https://neficl.github.io/wdd230/" />
+
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+
+    <script src="https://kit.fontawesome.com/0988bb3aac.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <nav>
-        <ul>
-            <li class="nav">
-                <a href="http://linkedin.com">LinkedIn</a>
+        <div id="mode">❎ Dark Mode Off</div>
+        <ul class="menu">
+            <li><a href="#" id="menu-button"><i class="fa-sharp fa-solid fa-bars"></i></a></li>
+            <li>
+                <a href="http://linkedin.com" class="menu-item">LinkedIn</a>
             </li>
-            <li class="nav"><a href="http://www.byui.edu">BYU Idaho</a></li>
+            <li>
+                <a href="http://byui.edu" class="menu-item">BYU Idaho</a>
+            </li>
         </ul>
     </nav>
     <header>
@@ -34,7 +49,8 @@
             <h3>Learning Activities</h3>
             <ul>
                 <li>Week 01: <a href="week01/grail.html">Holy Grail</a> | <a href="">Media Query</a>
-                <li>Week 02: <a href="" target="_blank">Title</a>
+                <li>Week 02: <a href="week02/bom.html">DOM</a> | <a href="week02/design.html">Design Principles</a> | <a
+                        href="https://codepen.io/neficl/pen/ZEjyOYB">Responsive Menu</a>
                 <li>Week 03: <a href="" target="_blank">Title</a>
                 <li>Week 04: <a href="" target="_blank">Title</a>
                 <li>Week 05: <a href="" target="_blank">Title</a>
@@ -61,6 +77,8 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/menu.js"></script>
 
 </body>
 

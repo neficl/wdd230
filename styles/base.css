@@ -32,10 +32,67 @@ header {
   box-shadow: 10px 10px 5px lightblue;
 }
 
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  z-index: 10;
+  overflow: hidden;
+  text-align: left;
+}
 
+.menu li a {
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  padding: 1rem;
+  position: relative;
+  transition: background 0.5s ease-in-out;
+}
+
+
+#darkness1 {
+  background-color: rgb(133, 112, 112);
+}
+
+#darkness2 {
+  background-color: rgb(133, 112, 112);
+}
+
+.mode {
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: right;
+}
+
+.close::before {
+  content: "❌ ";
+}
+
+.menu li a:hover {
+  background-color: wheat;
+}
+
+.menu li:first-child a {
+  background-color: rgb(195, 223, 245);
+  color: rgb(172, 145, 145);
+}
+
+.active {
+  font-weight: 700;
+}
+
+li a.menu-item {
+  display: none;
+}
+
+li a.open {
+  display: flex;
+}
 
 a:link {
-  color: black;
+  color: rgb(175, 151, 151);
 }
 
 main {
@@ -80,7 +137,7 @@ ul {
 
 li.nav a {
   display: block;
-  color: #000;
+  color: rgb(161, 147, 147);
   text-decoration: none;
 }
 

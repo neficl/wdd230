@@ -88,6 +88,41 @@
         overflow: hidden;
     }
 
+    
+    #darkness1 {
+        background-color: white;
+    }
+
+    #darkness2 {
+        background-color: white;
+    }
+
+    #main {
+        grid-area: myArea;
+    }
+
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+
+    li.nav {
+        float: left;
+    }
+
+    li.nav a {
+        display: block;
+        color: rgb(83, 105, 121);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li.nav a:hover {
+        background-color: rgb(185, 153, 153);
+    }
+}
 
 
     li.nav a {
@@ -101,4 +136,55 @@
     li.nav a:hover {
         background-color: #111;
     }
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    z-index: 10;
+    overflow: hidden;
+    text-align: left;
+}
+
+.menu li a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 1rem;
+    position: relative;
+    transition: background 0.5s ease-in-out;
+}
+
+.menu li a:hover {
+    background-color: wheat;
+}
+
+
+.menu li:first-child a {
+    background-color: rgb(195, 223, 245);
+    color: rgb(98, 159, 206);
+}
+
+.active {
+    font-weight: 700;
+}
+
+li a.menu-item {
+    display: none;
+}
+
+li a.open {
+    display: flex;
+}
+
+.close::before {
+    content: "❌ ";
+}
+
+.mode {
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: right;
 }
