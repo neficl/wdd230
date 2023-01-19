@@ -42,6 +42,10 @@ header {
   text-align: left;
 }
 
+h2 {
+  color: white;
+}
+
 .menu li a {
   display: block;
   text-decoration: none;
@@ -52,30 +56,18 @@ header {
 }
 
 
-#darkness1 {
-  background-color: rgb(133, 112, 112);
-}
-
-#darkness2 {
-  background-color: rgb(133, 112, 112);
-}
-
-.mode {
-  font-size: 2rem;
-  cursor: pointer;
-  text-align: right;
-}
-
-.close::before {
-  content: "❌ ";
+#mode{
+	position: relative;
+	font-size: 2rem;
+	cursor: pointer;
 }
 
 .menu li a:hover {
-  background-color: wheat;
+  background-color: #4682b4;
 }
 
 .menu li:first-child a {
-  background-color: rgb(195, 223, 245);
+  background-color: #ffff;
   color: rgb(172, 145, 145);
 }
 
@@ -131,13 +123,9 @@ section{
 }
 
 
-ul {
-  list-style-type: none;
-}
-
 li.nav a {
   display: block;
-  color: rgb(161, 147, 147);
+  color: rgb(233, 218, 218);
   text-decoration: none;
 }
 

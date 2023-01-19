@@ -42,8 +42,6 @@
         box-shadow: 10px 10px 5px lightblue;
     }
 
-
-
     a:link {
         color: black;
     }
@@ -74,6 +72,10 @@
         box-shadow: 10px 10px 5px lightblue;
     }
 
+    h2 {
+        color: black;
+    }
+
     section {
         background-color: white;
         padding: 2rem;
@@ -83,27 +85,8 @@
         list-style-type: none;
     }
 
-    ul {
-        list-style-type: none;
-        overflow: hidden;
-    }
-
-    
-    #darkness1 {
-        background-color: white;
-    }
-
-    #darkness2 {
-        background-color: white;
-    }
-
     #main {
         grid-area: myArea;
-    }
-
-    ul {
-        list-style-type: none;
-        overflow: hidden;
     }
 
 
@@ -123,19 +106,6 @@
         background-color: rgb(185, 153, 153);
     }
 }
-
-
-    li.nav a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-
-    li.nav a:hover {
-        background-color: #111;
-    }
 
 
 .menu {
@@ -158,12 +128,15 @@
 }
 
 .menu li a:hover {
-    background-color: wheat;
+    background-color: #4682b4;
 }
 
+h2 {
+    color: white;
+}
 
 .menu li:first-child a {
-    background-color: rgb(195, 223, 245);
+    background-color: #ffff;
     color: rgb(98, 159, 206);
 }
 
@@ -179,12 +152,8 @@ li a.open {
     display: flex;
 }
 
-.close::before {
-    content: "❌ ";
-}
-
-.mode {
-    font-size: 2rem;
-    cursor: pointer;
-    text-align: right;
+#mode{
+	position: relative;
+	font-size: 2rem;
+	cursor: pointer;
 }
