@@ -157,3 +157,50 @@ li a.open {
 	font-size: 2rem;
 	cursor: pointer;
 }
+
+.hero {
+    width: 100%;
+    top: 0.8rem;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .temple {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    padding: 2% 1%;
+    width: 30%;
+    max-height: 3vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+    font-family: var(--font-lora);
+    font-weight: bold;
+    font-size: 150%;
+    color: var(--rich-black);
+  }
+  
+  .temple-photo {
+    width: 100%;
+    height:auto;
+  }
+  
+  .student-profile {
+    top: 0;
+    position: relative;
+    display: flex;
+    gap: 5rem;
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 4rem 0;
+  }
+  
+  .student-profile img {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }

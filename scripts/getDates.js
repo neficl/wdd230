@@ -1,12 +1,5 @@
-var date = new Date();
-var year = date.getFullYear();
-document.getElementById('year').textContent = year;
-document.getElementById('last').textContent = document.lastModified;
+// Get year
+document.getElementById('year').innerHTML = new Date().getFullYear();
 
-WebFont.load({
-  google: {
-    families: [
-      'Noto Sans JP', 'sans-serif','Acme'
-    ]
-  }
-});
+// Last modified
+document.getElementById('lastModified').innerHTML = `Last modified: ${document.lastModified}`;
