@@ -198,9 +198,14 @@ li a.open {
   }
   
   .student-profile img {
+    margin: 0px auto;
     border-radius: 50%;
     width: 20rem;
     height: 20rem;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  .myname{
+    text-align: center;
   }

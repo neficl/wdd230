@@ -17,6 +17,10 @@ nav {
   flex: 1;
 }
 
+.myname{
+  text-align: center;
+}
+
 header {
   max-width: 640px;
   margin: 1rem auto;
@@ -175,6 +179,7 @@ li.nav a:hover {
 }
 
 .student-profile img {
+  margin: 0px auto;
   border-radius: 50%;
   width: 20rem;
   height: 20rem;
