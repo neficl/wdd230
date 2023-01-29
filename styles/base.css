@@ -186,3 +186,81 @@ li.nav a:hover {
   object-fit: cover;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .8rem;
+}
+
+form label.top input {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #9c2c13;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+table {
+    display: none;
+    margin: 0 auto;
+    width: 100%;
+    border: thin solid var(--baby-pink);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 1em;
+    caption-side: bottom;
+    color: var(--rich-black);
+    font-size: .85em;
+    font-style: italic;
+}
+
+tr:first-child th {
+    background-color: var(--imperial-red);
+    color: var(--snow);
+    font-size: larger;
+    text-align: center;
+}
+
+thead:nth-child(2) th {
+    text-align: center;
+}
+
+th, td {
+    padding: 7px 30px;
+    border: 1px solid var(--peach);
+    text-align: right;
+    font-weight: bold;
+    background-color: var(--snow);
+}
