@@ -31,6 +31,13 @@ main {
     margin-right: 100px;
 }
 
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
 
 footer {
     max-width: 400px;
@@ -59,17 +66,21 @@ section {
     display: block;
     text-decoration: none;
     text-align: left;
-    padding: 3px;
+    padding: 1rem;
     position: relative;
     transition: background 0.5s ease-in-out;
 }
-
+  
 .menu li a:hover {
     background-color: silver;
 }
 
 .menu li:first-child a {
     color: black;
+}
+
+a:link {
+    color: rgb(175, 151, 151);
 }
 
 .active {
@@ -92,4 +103,57 @@ li a.open {
     font-size: 2rem;
     cursor: pointer;
     text-align: right;
+}
+
+.grid-item{
+    background-color: #f7f7f7;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0.5rem;
+}
+
+.center {
+    text-align: center;
+}
+
+dt {
+    font-weight: 600;
+}
+
+dd {
+    padding-left: 15px;
+}
+
+.formalign {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.memberinfo {
+    display: none;
+    text-align: left;
+    padding: 5px;
+}
+
+select {
+    width: 220px;
+    height: 20px;
+}
+
+input {
+    width: 220px;
+    height: 20px;
+}
+
+textarea {
+    width: 220px;
+    height: 60px;
+}
+
+memberlevel {
+    width: 400px;
 }

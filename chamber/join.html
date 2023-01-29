@@ -5,65 +5,164 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Base page </title>
+    <title>Brasil International Chamber of Commerce</title>
+    <meta name="description" content="Site plan for chamber of commerce website">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="stylesheet" href="styles/weather.css">
+    <meta property="og:title" content="São Paulo Chamber of Commerce">
+    <meta property="og:type" content="WEB Site">
+    <meta property="og:img" content="images/photoPj.jpg">
+    <meta property="og:url" content="https://neficl.github.io/wdd230/">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
 
     <script src="https://kit.fontawesome.com/0988bb3aac.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
+    <nav>
+        <div id="mode">❎ Dark Mode</div>
+        <ul class="menu">
+            <li><a href="#" id="menu-button"><i class="fa-sharp fa-solid fa-bars"></i></a></li>
+
+            <li>
+                <a href="index.html" class="menu-item">Home</a>
+            </li>
+            <li>
+                <a href="discover.html" class="menu-item">Discover</a>
+            </li>
+            <li>
+                <a href="directory.html" class="menu-item">Directory</a>
+            </li>
+            <li>
+                <a href="join.html" class="menu-item">Join</a>
+            </li>
+
+        </ul>
+
+    </nav>
 
     <header>
-        <nav>
-            <menu>
-                <ul class="menu">
-                    <li>
-                        <a href="#" id="menu-button"><i class="fa-sharp fa-solid fa-bars"></i></a>
-                    </li>
-                    <li>
-                        <a href="chamber.html" class="menu-item">Home</a>
-                    </li>
-                    <li>
-                        <a href="http://linkedin.com" class="menu-item">LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="http://byui.edu" class="menu-item">BYU Idaho</a>
-                    </li>
-                    <li>
-                        <a href="../index.html" class="menu-item">Class Portal</a>
-                    </li>
-                </ul>
-            </menu>
-        </nav>
-        <h1 id="dark">Chamber of Commerce for Cold Days</h1>
+        <picture>
+
+            <source media="(max-width: 650px)" srcset="images/photoJP.webp 1x">
+            <img src="images/logocommerce.webp" alt="São Paulo" loading="lazy">
+
+        </picture>
+        <h1 contenteditable>São Paulo Chamber of Commerce</h1>
+
+        <h2>WDD 230: Course Activity Portal</h2>
     </header>
 
 
-    <main>
-        <section id="main">
-            <h3 id="dark2">Join the Chamber</h3>
+    <main class="grid-container">
+        <div class="grid-item">
+            <section>
+                <h2>Join the Chamber</h2>
+                <form action="thankyou.html" method="get">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2" scope="colgroup">
+                                    Fill out the form below to join.
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="formalign"><label for="first">First Name: </label></td>
+                                <td><input type="text" name="first" id="first" required></td>
+                            </tr>
+                            <tr>
+                                <td class="formalign"><label for="last">Last Name: </label></td>
+                                <td><input type="text" name="last" id="last" required></td>
+                            </tr>
+                            <tr>
+                                <td class="formalign"><label for="title">Business Position Title: </label></td>
+                                <td><input type="text" name="title" id="title" minlength="7" pattern="[a-zA-Z0-9 -]+">
+                                </td>
+                            </tr>
 
-            <form>
-                Name: <input type="text">
-                <input type="button" value="Join Us Now!" onclick="myDarkSide()">
-            </form>
-            <script>
-                function myDarkSide() {
-                    document.getElementById("dark").innerHTML = "Dark Side!";
-                    document.getElementById("dark2").innerHTML = "You WILL be happy here.";
-                }
-            </script>
-        </section>
+                            <tr>
+                                <td class="formalign"><label for="email">Email: </label></td>
+                                <td><input type="email" id="email" name="email" placeholder="youremail@email.com"
+                                        required></td>
+                            </tr>
 
+                            <tr>
+                                <td class="formalign"><label for="cell">Cell Phone No: </label></td>
+                                <td><input type="tel" id="cell" name="cell" required></td>
+                            </tr>
+
+                            <tr>
+                                <td class="formalign"><label for="business">Business Name/Title: </label></td>
+                                <td><input type="text" id="business" name="business" required></td>
+                            </tr>
+
+                            <tr>
+                                <td class="formalign"><label for="member">Membership Level: </label></td>
+                                <td><select name="member" id="member" onChange="memberBenefits(this.value)">
+                                        <option value="">Select a Member Level</option>
+                                        <option value="gold">Gold</option>
+                                        <option value="silver">Silver</option>
+                                        <option value="bronze">Bronze</option>
+                                        <option value="npmembership">Non-Profit Membership</option>
+                                    </select></td>
+                            </tr>
+
+                            <tr>
+                                <td class="formalign"><label for="description">Business Description: </label></td>
+                                <td><textarea name="description" id="description"></textarea></td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td><input type="hidden" name="datetime" id="loadtime">
+                                    <input type="submit" value="Join the Chamber">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </section>
+        </div>
+        <div>
+            <section id="memberlevel">
+                <div id="displayform" class="memberinfo">
+                    <h2>Member Level Information</h2>
+                    <dl>
+                        <dt><span id="level">Select a level from the form on the left</span></dt>
+                        <dd id="memberinfo"></dd>
+                        <dt>Cost</dt>
+                        <dd id="membercost">-</dd>
+                    </dl>
+                </div>
+            </section>
+        </div>
     </main>
-    <footer contenteditable>
-        <p id="copyright">copyright date name</p>
+    <footer>
+
+        <ul style="list-style-type:none;">
+            <li>Néfi Leite</li>
+            <li>Phone: +55 55 99999-5555</li>
+            <li>Email: contact.us@gmail.com</li>
+            <li>Wdd 230 - Web and Computer Programming</li>
+        </ul>
+
         <p class="highlight" id="lastmodified"></p>
     </footer>
-    <script src="scripts/menu.js"></script>
+
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+    <script src="scripts/benefits.js"></script>
+
 </body>
 
 </html>
