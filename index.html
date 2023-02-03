@@ -60,82 +60,178 @@
     </header>
     <main>
         <h2>WDD 230: Course Activity Portal</h2>
-        <section class="card">
-            <h3>Learning Activities</h3>
+        <section class="learning">
+            <h3>Learning Activities:</h3>
             <ul>
-                <li>Week 01: <a href="week01/grail.html">Holy Grail</a> | <a href="">Media Query</a>
-                <li>Week 02: <a href="week02/bom.html">DOM</a> | <a href="week02/design.html">Design Principles</a> | <a
-                        href="https://codepen.io/neficl/pen/ZEjyOYB">Responsive Menu</a>
-                <li>Week 03: <a href="week03/images/landscape.webp">Image webp </a> | <a href="week03/lazyload.html">
-                        Lazy Load </a> | <a href="https://codepen.io/neficl/pen/wvxPqXK">Images Responsive</a> | <a
-                        href="week03/bom.html">DOM</a>
-                <li>Week 04: <a href="week04/images/css_exercise.png">Combinators</a> | <a
-                        href="week04/tablebuild.html"> Table Build </a> | <a
-                        href="https://codepen.io/neficl/pen/YzjeoaG"> Pseudo-Class </a>
-                <li>Week 05: <a href="" target="_blank">Title</a>
-                <li>Week 06: <a href="" target="_blank">Title</a>
-            </ul>
-        </section>
-        <section class="card">
-            <h3>Project</h3>
-            <ul>
-                <li><a href="week01/chamber-site-plan.html">Brasil International Chamber of Commerce</a></li>
-                <li><a href="chamber/index.html">Chamber of Commerce</a></li>
+                <li id="links1"></li>
+                <li id="links2"></li>
+                <li id="links3"></li>
+                <li id="links4"></li>
+                <li id="links5"></li>
             </ul>
 
-        </section>
-        <section class="card">
-            <h3>Information</h3>
-            <label for="weather">Weather: </label>
-            <input type="text" id="weather" name="weather" placeholder="Weather">
-            <p>Number of Visits: <span class="visits"></span></p>
+            <section class="project">
+                <h3>Project</h3>
+                <ul>
+                    <li><a href="week01/chamber-site-plan.html">Brasil International Chamber of Commerce</a></li>
+                    <li><a href="chamber/index.html">Chamber of Commerce</a></li>
+                </ul>
 
-        </section>
-
-        <section class="form">
+            </section>
+            <section class="information">
+                <h3>Information:</h3>
+                <div class="weather">
+                    <img id="weather-icon" src="images/cloud.png" alt="weather">
+                    <div id="location">Unable to Fetch Weather</div>
+                    <div class="desc">No Information Available.</div>
+                    <div class="circle"></div>
+                    <div class="f">Error</div>
+                    <div>Wind: <span class="winds">No Information Available</span></div>
+                    <div>Humidity: <span class="humid">No Information Available</span></div>
+                    <br>
+                </div>
+                <br>
+            </section>
 
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253364.78755632328!2d-35.02168187395553!3d-7.146247034145501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace839019aa3d7%3A0x6e414a9c6d26db34!2sJo%C3%A3o%20Pessoa%2C%20PB!5e0!3m2!1spt-BR!2sbr!4v1674195116078!5m2!1spt-BR!2sbr"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <form>
-                <form>
-                    <fieldset>
-                        <legend>Contact Form</legend>
-                        <label class="top">Full name: <input id="fname" type="text" name="fname" required></label>
-                        <label class="top">Email: <input id="user-email" type="email" name="email" required></label>
-                        <label class="top">
-                            Page Rating (1 - 10):<input type="range" name="rating" id="rating" min="1" max="10"
-                                value="5" oninput="showValue(this.value)">
-                            <p>Rating value: <strong id="rating-value"></strong></p>
+            <br>
+            <form name="contact" action="#">
+                <table>
+                    <caption>Table 1: Account Feature Comparison</caption>
+                    <thead>
+                        <tr>
+                            <th colspan="2" scope="colgroup">
+                                <b>Contact Send Us a Message</b>
+                                <div id="formmessage"></div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label for="fullname">Full Name:</label></td>
+                            <td><input type="text" id="fullname" name="fullname" required placeholder="Your full name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="email">Email address:</label>
+                            </td>
+                            <td><input type="email" id="email" name="email" placeholder="youremail@email.com" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="rating">Page Rating [ <span id="ratingval"></span> ]:</label>
+                            </td>
+                            <td>
+                                <div class="rangecontainer">
+                                    <input type="range" id="rating" name="rating" min="0" max="10">
+                                    <datalist class="ratinglabels">
+                                        <option value="1" class="ratevalue">
+                                        <option value="2" class="ratevalue">
+                                        <option value="3" class="ratevalue">
+                                        <option value="4" class="ratevalue">
+                                        <option value="5" class="ratevalue">
+                                        <option value="6" class="ratevalue">
+                                        <option value="7" class="ratevalue">
+                                        <option value="8" class="ratevalue">
+                                        <option value="9" class="ratevalue">
+                                        <option value="10" class="ratevalue">
+                                    </datalist>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="username">Username:</label></td>
+                            <td><input type="password" id="username" name="username" minlength="5" maxlength="12"
+                                    pattern="[a-zA-Z0-9]*\d" required placeholder="5-12 characters">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="username2">Re-enter Username:</label></td>
+                            <td>
+                                <input type="password" id="username2" name="username2" minlength="5" maxlength="12"
+                                    pattern="[a-zA-Z0-9]*\d" required placeholder="repeat username">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input id="submit" name="submit" type="submit" value="Contact Us"
+                                    onclick="return displayForm();">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
 
-                        </label>
-                        <label class="top">Password: (5 - 12 letters, numbers and non-alphanumeric
-                            characters)<input class='password1' type="password" pattern="[\w\d\W]+{5,12}"
-                                required></label>
-                        <label class="top">Re-enter Password: <input class='password2' type="password" required></label>
+            <div class="span" id="displayform">
+                <table>
+                    <caption>Figure 1: Example HTML Output</caption>
+                    <tr>
+                        <td class="head">Form Input</td>
+                    </tr>
+                    <tr>
+                        <td class="body">
+                            <table>
+                                <tr>
+                                    <th scope="col">Field</th>
+                                    <th scope="col">Value</th>
+                                </tr>
 
-                        <div class="form-message"></div>
-                    </fieldset>
-                    <input type="submit" value="Send" class="submitBtn">
-                </form>
+                                <tbody>
+                                    <tr>
+                                        <td class="left" id="noborder">Name:</td>
+                                        <td class="right">
+                                            <div id="displayarea1"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="left">Email:</td>
+                                        <td class="right">
+                                            <div id="displayarea2"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="left">Rating:</td>
+                                        <td class="right">
+                                            <div id="displayarea3"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="left">Username:</td>
+                                        <td class="right">
+                                            <div id="displayarea4"></div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
-        </section>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-    </main>
+            <footer>
+                <p>Copyright &copy; <span id="year">year</span> | Néfi Leite | Brazil</p>
+                <p class="highlight" id="lastmodified"></p>
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+            </footer>
 
-    <footer>
-        <p>Copyright &copy; <span id="year">year</span> | Néfi Leite | Brazil</p>
-
-        <p class="highlight" id="lastModified">Last Modified: </p>
-    </footer>
-
-    <script src="scripts/getDates.js"></script>
-    <script src="scripts/darkmode.js"></script>
-    <script src="scripts/menu.js"></script>
-    <script src="scripts/getVisits.js"></script>
+            <script src="scripts/hamburger.js"></script>
+            <script src="scripts/getDates.js"></script>
+            <script src="scripts/darkmode.js"></script>
+            <script src="scripts/getVisits.js"></script>
+            <script src="scripts/contact.js"></script>
+            <script src="scripts/weather.js"></script>
+            <script src="scripts/activity.js"></script>
 
 </body>
 
+<!--repush-->
+
+<!--repush-->
+
 </html>
+<!--repush-->

@@ -252,3 +252,22 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
+table {
+    margin: auto;
+    border: none;
+    border-spacing: 0px;
+}
+
+.information {
+    grid-area: information;
+}
+
+.weather {
+    width: 50%;
+    border: 1px solid #111;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
