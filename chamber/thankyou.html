@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brasil International Chamber of Commerce</title>
+    <title>São Paulo Chamber of Commerce</title>
     <meta name="description" content="Site plan for chamber of commerce website">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Patrick+Hand&display=swap"
         rel="stylesheet">
@@ -18,74 +18,111 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="icon" href="favicon.ico">
-
-    <script src="https://kit.fontawesome.com/0988bb3aac.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <nav>
-        <div id="mode">❎ Dark Mode</div>
-        <ul class="menu">
-            <li><a href="#" id="menu-button"><i class="fa-sharp fa-solid fa-bars"></i></a></li>
-
-            <li>
-                <a href="index.html" class="menu-item">Home</a>
-            </li>
-            <li>
-                <a href="discover.html" class="menu-item">Discover</a>
-            </li>
-            <li>
-                <a href="directory.html" class="menu-item">Directory</a>
-            </li>
-            <li>
-                <a href="join.html" class="menu-item">Join</a>
-            </li>
-
-        </ul>
-
-    </nav>
-
-
+<body id="content">
     <header>
-        <picture>
-
+        <div class="logo-container">
             <source media="(max-width: 650px)" srcset="images/photoJP.webp 1x">
             <img src="images/logocommerce.webp" alt="São Paulo" loading="lazy">
 
-        </picture>
-        <h1 contenteditable>São Paulo Chamber of Commerce</h1>
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com/spchamberoficial/?_rdc=2&_rdr"><img src="images/facebook.png"
+                    alt="Facebook image" /></a>
+            <a href="https://www.linkedin.com/showcase/spchamber/"><img src="images/linkedin.png"
+                    alt="LinkedIn image" /></a>
+        </div>
+        <nav class="primary">
+            <div id="mode">❎ Dark Mode</div>
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong>
+                </li>
+                <li>
+                    <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+            </ul>
+        </nav>
 
-        <h2>WDD 230: Course Activity Portal</h2>
+        <div class="date"></div>
+
+        <div class="banner">
+            <h4>
+                🤝🏼 Your gateway to foreign trade.
+            </h4>
+        </div>
     </header>
 
-
-    <main class="grid-container">
-        <div class="grid-item">
-            <section class="thanks">
-                <h2>Thank you for joining the Chamber</h2>
-            </section>
-        </div>
+    <main id="discovermain">
+        <section class="thanks">
+            <h3>Join Successful</h3>
+            <p>
+                You have succesfully joined the Uyo City Special Club. We will notify you via email once your membership
+                black card is availble. You can decide if to pick it up or have us deliver it to you
+            </p>
+        </section>
     </main>
 
     <footer>
-
-        <ul style="list-style-type:none;">
-            <li>Néfi Leite</li>
-            <li>Phone: +55 55 99999-5555</li>
-            <li>Email: contact.us@gmail.com</li>
-            <li>Wdd 230 - Web and Computer Programming</li>
-        </ul>
-
-        <p class="highlight" id="lastmodified"></p>
+        <div class="footer">
+            <div class="address">
+                <source media="(max-width: 650px)" srcset="images/photoJP.webp 1x">
+                <img src="images/logocommerce.webp" alt="São Paulo" loading="lazy">
+                <h3>São Paulo Chamber of Commerce</h3>
+                <p>
+                    Rua Boa Vista, 51 - Centro - Sao Paulo, SP - Brasil
+                </p>
+                <p>
+                    +55 11 3180-3180
+                </p>
+            </div>
+            <div class="contact">
+                <a href="spchamber@acsp.com.br"><img src="images/email.PNG" alt="email" /></a>
+                <a href="https://www.linkedin.com/showcase/spchamber/"><img src="images/linkedin.PNG" alt="email" /></a>
+                <a href="https://www.facebook.com/spchamberoficial/?_rdc=2&_rdr"><img src="images/facebook.png"
+                        alt="Facebook image" /></a>
+                <a href="https://www.google.com/maps/place/R.+Boa+Vista,+51+-+Centro+Hist%C3%B3rico+de+S%C3%A3o+Paulo,+S%C3%A3o+Paulo+-+SP,+01014-911/@-23.5473202,-46.6356465,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce58553732607b:0x5bc4668b6d43f8cb!8m2!3d-23.5473251!4d-46.6334578!16s%2Fg%2F11b8v78bq8"
+                    target="_blank"><img src="images/location.png"></a>
+            </div>
+            <div class="credit">
+                <p class="fb">
+                    <strong>&copy; <span class="fyear"></span> São Paulo Chamber <br />
+                        Néfi Leite <br />
+                        Wdd 230 - Web and Computer Programming <br />
+                        Last Modification: <span class="fMod"></span>
+                    </strong>
+                </p>
+                <p class="fm">
+                    <strong>&copy; <span class="fyear"></span> Néfi Leite| Wdd 230 - Web and Computer Programming |
+                        <br />
+                        Last Modification: <span class="fMod"></span>
+                    </strong>
+                </p>
+                <p class="fl">
+                    <strong>&copy; <span class="fyear"></span> Néfi Leite | Wdd 230 - Web and Computer Programming |
+                        Last
+                        Modification:
+                        <span class="fMod"></span>
+                    </strong>
+                </p>
+                <p>
+                    Weather source
+                    <a href="https://openweathermap.org/city/3448439" target="_blank">@OpenWeather</a>
+                </p>
+            </div>
+        </div>
     </footer>
-
-
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/getdates.js"></script>
-    <script src="scripts/darkmode.js"></script>
-    <script src="scripts/menu.js"></script>
-    <script src="scripts/lastvisit.js"></script>
+    <script src="js/script.js" defer></script>
 
 </body>
 

@@ -1,0 +1,44 @@
+{
+    "news": [{
+            "title": "Company History",
+            "link": "https://acsp.com.br/publicacao-institucional/s/historia"
+        },
+        {
+            "title": "Values",
+            "link": "https://acsp.com.br/missao-visao-e-valores"
+        },
+        {
+            "title": "Message from the President",
+            "link": "https://acsp.com.br/mensagem-do-presidente"
+        },
+        {
+            "title": "Depositions",
+            "link": "https://acsp.com.br/depoimentos"
+        },
+        {
+            "title": "Partner Companies",
+            "link": "https://acsp.com.br/publicacao/s/empresas-coligadas"
+        }
+    ],
+    "businesses": [{
+            "name": "Boa Vista",
+            "decscription": "Organize your company's financial health",
+            "imageurl": "images/boavistaa.png",
+            "street": "Av. Tamboré, 267",
+            "city": "Barueri, Sao Paulo",
+            "number": "3003 0101",
+            "website": "https://www.boavistaservicos.com.br/",
+            "membership": "gold"
+        },
+        {
+            "name": "Faculdade do Comércio",
+            "decscription": "Official college of the Confederation of Commercial and Business Associations of Brazil (CACB)",
+            "imageurl": "images/facsp.png",
+            "street": "Rua Boa Vista, 51, São Paulo",
+            "city": "Sao Paulo",
+            "number": "(11) 9 9740-4002",
+            "website": "https://www.facsp.com.br/",
+            "membership": "gold"
+        }
+    ]
+}

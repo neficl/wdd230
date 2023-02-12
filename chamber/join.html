@@ -2,166 +2,198 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brasil International Chamber of Commerce</title>
-    <meta name="description" content="Site plan for chamber of commerce website">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Patrick+Hand&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>São Paulo Chamber of Commerce</title>
+  <meta name="description" content="Site plan for chamber of commerce website">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Patrick+Hand&display=swap" rel="stylesheet">
 
-    <meta property="og:title" content="São Paulo Chamber of Commerce">
-    <meta property="og:type" content="WEB Site">
-    <meta property="og:img" content="images/photoPj.jpg">
-    <meta property="og:url" content="https://neficl.github.io/wdd230/">
+  <meta property="og:title" content="São Paulo Chamber of Commerce">
+  <meta property="og:type" content="WEB Site">
+  <meta property="og:img" content="images/photoPj.jpg">
+  <meta property="og:url" content="https://neficl.github.io/wdd230/">
 
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="icon" href="favicon.ico">
-
-    <script src="https://kit.fontawesome.com/0988bb3aac.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
-<body>
-    <nav>
-        <div id="mode">❎ Dark Mode</div>
-        <ul class="menu">
-            <li><a href="#" id="menu-button"><i class="fa-sharp fa-solid fa-bars"></i></a></li>
+<body id="content">
+  <header>
+    <div class="logo-container">
+      <source media="(max-width: 650px)" srcset="images/photoJP.webp 1x">
+      <img src="images/logocommerce.webp" alt="São Paulo" loading="lazy">
 
-            <li>
-                <a href="index.html" class="menu-item">Home</a>
-            </li>
-            <li>
-                <a href="discover.html" class="menu-item">Discover</a>
-            </li>
-            <li>
-                <a href="directory.html" class="menu-item">Directory</a>
-            </li>
-            <li>
-                <a href="join.html" class="menu-item">Join</a>
-            </li>
-
-        </ul>
-
+    </div>
+    <div class="socials">
+      <a href="https://www.facebook.com/spchamberoficial/?_rdc=2&_rdr"><img src="images/facebook.png"
+          alt="Facebook image" /></a>
+      <a href="https://www.linkedin.com/showcase/spchamber/"><img src="images/linkedin.png" alt="LinkedIn image" /></a>
+    </div>
+    <nav class="primary">
+      <div id="mode">❎ Dark Mode</div>
+      <button id="ham"><span>&#9776;</span><span>X</span></button>
+      <ul id="menu">
+        <li>
+          <strong><a id="home" href="index.html">Home</a></strong>
+        </li>
+        <li>
+          <strong><a id="discover" href="discover.html">Discover</a></strong>
+        </li>
+        <li>
+          <strong><a id="directory" href="directory.html">Directory</a></strong>
+        </li>
+        <li>
+          <strong><a id="join" href="join.html">Join</a></strong>
+        </li>
+      </ul>
     </nav>
 
-    <header>
-        <picture>
+    <div class="date"></div>
 
-            <source media="(max-width: 650px)" srcset="images/photoJP.webp 1x">
-            <img src="images/logocommerce.webp" alt="São Paulo" loading="lazy">
+    <div class="banner">
+      <h4>
+        🤝🏼 Your gateway to foreign trade.
+      </h4>
+    </div>
+  </header>
 
-        </picture>
-        <h1 contenteditable>São Paulo Chamber of Commerce</h1>
+  <main id="discovermain">
+    <div class="top">
+      <h2>Join São Paulo Commerce</h2>
+      <p>
+        A business environment with thousands of entrepreneurs like you.
 
-        <h2>WDD 230: Course Activity Portal</h2>
-    </header>
+        Access to exclusive products and services with special conditions to make your day-to-day life easier.
 
+        128 years of solid performance in favor of the commerce and services sector in the city of Sao Paulo.
 
-    <main class="grid-container">
-        <div class="grid-item">
-            <section>
-                <h2>Join the Chamber</h2>
-                <form action="thankyou.html" method="get">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th colspan="2" scope="colgroup">
-                                    Fill out the form below to join.
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="formalign"><label for="first">First Name: </label></td>
-                                <td><input type="text" name="first" id="first" required></td>
-                            </tr>
-                            <tr>
-                                <td class="formalign"><label for="last">Last Name: </label></td>
-                                <td><input type="text" name="last" id="last" required></td>
-                            </tr>
-                            <tr>
-                                <td class="formalign"><label for="title">Business Position Title: </label></td>
-                                <td><input type="text" name="title" id="title" minlength="7" pattern="[a-zA-Z0-9 -]+">
-                                </td>
-                            </tr>
+        Service from a specialized team that understands what you need.
 
-                            <tr>
-                                <td class="formalign"><label for="email">Email: </label></td>
-                                <td><input type="email" id="email" name="email" placeholder="youremail@email.com"
-                                        required></td>
-                            </tr>
+        A network with 17 Service Points spread across all regions of the city of Sao Paulo. One of them right next to
+        you!
+      </p>
+    </div>
 
-                            <tr>
-                                <td class="formalign"><label for="cell">Cell Phone No: </label></td>
-                                <td><input type="tel" id="cell" name="cell" required></td>
-                            </tr>
+    <section id="form">
+      <h3>Uyo Special Club Application Form</h3>
 
-                            <tr>
-                                <td class="formalign"><label for="business">Business Name/Title: </label></td>
-                                <td><input type="text" id="business" name="business" required></td>
-                            </tr>
+      <form action="thankyou.html" method="get">
+        <label class="blockview">First Name
+          <input type="text" placeholder="First name" name="fname" required /></label>
+        <label class="blockview">Last Name
+          <input type="text" placeholder="Last name" name="lname" required /></label>
 
-                            <tr>
-                                <td class="formalign"><label for="member">Membership Level: </label></td>
-                                <td><select name="member" id="member" onChange="memberBenefits(this.value)">
-                                        <option value="">Select a Member Level</option>
-                                        <option value="gold">Gold</option>
-                                        <option value="silver">Silver</option>
-                                        <option value="bronze">Bronze</option>
-                                        <option value="npmembership">Non-Profit Membership</option>
-                                    </select></td>
-                            </tr>
+        <label class="blockview">Business Position
+          <input type="text" name="position" pattern="^[A-Za-z -]{7,}$" /></label>
 
-                            <tr>
-                                <td class="formalign"><label for="description">Business Description: </label></td>
-                                <td><textarea name="description" id="description"></textarea></td>
-                            </tr>
+        <label class="blockview">Email
+          <input type="email" name="email" placeholder="someone@example.com" required /></label>
+        <label class="blockview">Phone Number <input type="tel" name="tel" required /></label>
+        <label class="blockview">Business Name <input type="text" name="businessname" required /></label>
 
-                            <tr>
-                                <td></td>
-                                <td><input type="hidden" name="datetime" id="loadtime">
-                                    <input type="submit" value="Join the Chamber">
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </form>
-            </section>
+        <div id="membership">
+          <div class="mtitle">Membership Level</div>
+
+          <div>
+            <label class="sbs"><input id="free" type="radio" name="membership" />NP
+              Membership</label>
+            <label class="sbs"><input id="bronze" type="radio" name="membership" />Bronze
+              Membership</label>
+            <label class="sbs"><input id="silver" type="radio" name="membership" />Silver
+              Membership</label>
+            <label class="sbs"><input id="gold" type="radio" name="membership" />Gold
+              Membership</label>
+          </div>
+
+          <div class="benefit">
+            <h5>Price: <span id="price"></span></h5>
+            <table>
+              <tr>
+                <th>Benefits:</th>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td id="one">Website Ads</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td id="two">Free Meal</td>
+              </tr>
+
+              <tr>
+                <td></td>
+                <td id="three">Website Ads</td>
+              </tr>
+            </table>
+          </div>
         </div>
-        <div>
-            <section id="memberlevel">
-                <div id="displayform" class="memberinfo">
-                    <h2>Member Level Information</h2>
-                    <dl>
-                        <dt><span id="level">Select a level from the form on the left</span></dt>
-                        <dd id="memberinfo"></dd>
-                        <dt>Cost</dt>
-                        <dd id="membercost">-</dd>
-                    </dl>
-                </div>
-            </section>
-        </div>
-    </main>
-    <footer>
 
-        <ul style="list-style-type:none;">
-            <li>Néfi Leite</li>
-            <li>Phone: +55 55 99999-5555</li>
-            <li>Email: contact.us@gmail.com</li>
-            <li>Wdd 230 - Web and Computer Programming</li>
-        </ul>
+        <label class="blockview">Business Description
+          <textarea name="description" rows="4" cols="50"></textarea>
+        </label>
+        <input type="hidden" id="time" name="time" />
 
-        <p class="highlight" id="lastmodified"></p>
-    </footer>
+        <input id="submitBtn" type="submit" value="Join Club" />
+      </form>
+    </section>
+  </main>
 
-
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/getdates.js"></script>
-    <script src="scripts/darkmode.js"></script>
-    <script src="scripts/lastvisit.js"></script>
-    <script src="scripts/benefits.js"></script>
+  <footer>
+    <div class="footer">
+      <div class="address">
+        <source media="(max-width: 650px)" srcset="images/photoJP.webp 1x">
+        <img src="images/logocommerce.webp" alt="São Paulo" loading="lazy">
+        <h3>São Paulo Chamber of Commerce</h3>
+        <p>
+          Rua Boa Vista, 51 - Centro - Sao Paulo, SP - Brasil
+        </p>
+        <p>
+          +55 11 3180-3180
+        </p>
+      </div>
+      <div class="contact">
+        <a href="spchamber@acsp.com.br"><img src="images/email.PNG" alt="email" /></a>
+        <a href="https://www.linkedin.com/showcase/spchamber/"><img src="images/linkedin.PNG" alt="email" /></a>
+        <a href="https://www.facebook.com/spchamberoficial/?_rdc=2&_rdr"><img src="images/facebook.png"
+            alt="Facebook image" /></a>
+        <a href="https://www.google.com/maps/place/R.+Boa+Vista,+51+-+Centro+Hist%C3%B3rico+de+S%C3%A3o+Paulo,+S%C3%A3o+Paulo+-+SP,+01014-911/@-23.5473202,-46.6356465,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce58553732607b:0x5bc4668b6d43f8cb!8m2!3d-23.5473251!4d-46.6334578!16s%2Fg%2F11b8v78bq8"
+          target="_blank"><img src="images/location.png"></a>
+      </div>
+      <div class="credit">
+        <p class="fb">
+          <strong>&copy; <span class="fyear"></span> São Paulo Chamber <br />
+            Néfi Leite <br />
+            Wdd 230 - Web and Computer Programming <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+        </p>
+        <p class="fm">
+          <strong>&copy; <span class="fyear"></span> Néfi Leite| Wdd 230 - Web and Computer Programming |
+            <br />
+            Last Modification: <span class="fMod"></span>
+          </strong>
+        </p>
+        <p class="fl">
+          <strong>&copy; <span class="fyear"></span> Néfi Leite | Wdd 230 - Web and Computer Programming |
+            Last
+            Modification:
+            <span class="fMod"></span>
+          </strong>
+        </p>
+        <p>
+          Weather source
+          <a href="https://openweathermap.org/city/3448439" target="_blank">@OpenWeather</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js" defer></script>
+  <script src="js/benefit.js" defer></script>
 
 </body>
 

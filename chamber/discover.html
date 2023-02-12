@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brasil International Chamber of Commerce</title>
+    <title>São Paulo Chamber of Commerce</title>
     <meta name="description" content="Site plan for chamber of commerce website">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Patrick+Hand&display=swap"
         rel="stylesheet">
@@ -18,124 +18,152 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="icon" href="favicon.ico">
-
-    <script src="https://kit.fontawesome.com/0988bb3aac.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <nav>
-        <ul class="menu">
-            <li>
-                <a href="#" id="menu-button"><i class="fa-sharp fa-solid fa-bars"></i></a>
-            </li>
-            <li>
-                <a href="index.html" class="menu-item">Home</a>
-            </li>
-            <li>
-                <a href="discover.html" class="menu-item">Discover</a>
-            </li>
-            <li>
-                <a href="directory.html" class="menu-item">Directory</a>
-            </li>
-            <li>
-                <a href="join.html" class="menu-item">Join</a>
-            </li>
-        </ul>
-    </nav>
-
+<body id="content">
     <header>
-        <picture>
-            <source media="(max-width: 650px)" srcset="images/logocommerce.wepb 1x">
-            <img src="images/logocommerce.webp" width="150" height="200" alt="Logo" loading="lazy">
-        </picture>
+        <div class="logo-container">
+            <source media="(max-width: 650px)" srcset="images/photoJP.webp 1x">
+            <img src="images/logocommerce.webp" alt="São Paulo" loading="lazy">
 
-        <h1 contenteditable>São Paulo Chamber of Commerce</h1>
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com/spchamberoficial/?_rdc=2&_rdr"><img src="images/facebook.png"
+                    alt="Facebook image" /></a>
+            <a href="https://www.linkedin.com/showcase/spchamber/"><img src="images/linkedin.png"
+                    alt="LinkedIn image" /></a>
+        </div>
+        <nav class="primary">
+            <div id="mode">❎ Dark Mode</div>
+            <button id="ham"><span>&#9776;</span><span>X</span></button>
+            <ul id="menu">
+                <li>
+                    <strong><a id="home" href="index.html">Home</a></strong>
+                </li>
+                <li>
+                    <strong><a id="discover" href="discover.html">Discover</a></strong>
+                </li>
+                <li>
+                    <strong><a id="directory" href="directory.html">Directory</a></strong>
+                </li>
+                <li>
+                    <strong><a id="join" href="join.html">Join</a></strong>
+                </li>
+            </ul>
+        </nav>
 
-        <h2>WDD 230: Course Activity Portal</h2>
+        <div class="date"></div>
+
+        <div class="banner">
+            <h4>
+                🤝🏼 Your gateway to foreign trade.
+            </h4>
+        </div>
     </header>
 
-    <main>
+    <main id="discovermain">
+        <div class="top">
+            <h2>Discover São Paulo</h2>
+            <p>
+                Founded on February 9, 2004, the Sao Paulo Chamber of Commerce (SPCC) is a body of the Commercial
+                Association of Sao Paulo (ACSP) that works to promote commercial relations between Brazilian companies,
+                mainly those from Sao Paulo, with the rest of the world.
+            </p>
 
-        <p>
-            Founded on February 9, 2004, the São Paulo Chamber of Commerce (SPCC) is a body of the Commercial
-            Association of São Paulo (ACSP) that works to promote commercial relations between Brazilian companies,
-            mainly those from São Paulo, with the rest of the world.
+            <h5>Days Since Last Visits: <span class="visits"></span></h5>
+        </div>
 
-        </p>
+        <section id="gallery">
+            <img class="overlay" src="images/citysaopaulo.webp" alt="Cidade de Sampa" />
 
-
-        <section id="central">
-            <div id="phototitle">Logo Commerce</div>
-            <div class="hover"><img src="images/logocommerce.webp" width="850" height="475" alt="Logo Commerce"
-                    loading="lazy"></div>
-            <div id="phototitle">City São Paulo</div>
-            <div class="hover"><img src="images/citysaopaulo.webp" width="850" height="500" alt="City São Paulo"
-                    loading="lazy"></div>
-            <div id="phototitle">Flag São Paulo</div>
-            <div class="hover"> <img src="images/flagsaopaulo.webp" width="850" height="500" alt="Flag São Paulo"
-                    loading="lazy"></div>
-            <div id="phototitle">Avenida São Paulo</div>
-            <div class="hover"> <img src="images/avsaopaulo.webp" width="850" height="500" alt="Avenida São Paulo"
-                    loading="lazy"></div>
-        </section>
-
-        <section id="sidebar">
-            <h3>About São Paulo</h3>
-            <div><br>Population in 2019: 47 000 000 Hab(96% urban, 4% rural).<br>
-
-                <div>Males: (44.6%) <br>
-                    Females: (55.4%)<br><br>
-                </div>
-                <div>
-                    Estimated per capita income in 2020: R$ 51.364,73 reais<br><br>
-                </div>
-                <div>
-                    IDH: 0,826<br><br>
-                </div>
-
+            <div class="blue">
+                <h4>São Paulo</h4>
+                <p>
+                    Population in 2019: 47 000 000 Hab.
+                    IDH: 0,826
+                    Estimated per capita income in 2020: R$ 51.364,73 reais
+                    Sao Paulo is the economic heart of the largest economy in South America, and has the largest stock
+                    exchange.
+                </p>
             </div>
 
-            <h3>UPCOMING EVENTS</h3>
-            <p>January 25<br>
-                São Paulo's Birthday Festivities</p>
-            <br>
-            <p>Lollapalooza Brasil<br>
-                March 28</p>
-            <br>
-            <p>
-                São Paulo International Marathon<br>
-                April 10
-            </p><br>
-            <p>
-                Formula 1<br>
-                November 11
-            </p><br>
-            <p>
-                Tech Week São Paulo November 22<br>
-                Mon, Jan 23, 2023
-            </p><br>
+            <img src="images/flagsaopaulo.webp" alt="Bandeira" />
+            <div class="light-blue">
+                <h4>História</h4>
+                <p>
+                    The largest city and commercial capital of Brazil has become the
+                    headquarters for several companies to operate in Latin America, despite language, crime and other
+                    problems.
+                </p>
+            </div>
+
+            <img src="images/avsaopaulo.webp" alt="Avenida" />
+            <div class="light-blue">
+                <h4>Avenida</h4>
+                <p>
+                    It is considered one of the main financial centers of the city, as well as a very popular place for
+                    offering many tourist attractions, that is, the avenue reveals its importance not only as an
+                    economic hub, but also as a cultural and entertainment center.
+                </p>
+            </div>
 
         </section>
-
     </main>
 
     <footer>
-        <ul style="list-style-type:none;">
-            <li>Néfi Leite</li>
-            <li>Phone: +55 55 99999-5555</li>
-            <li>Email: contact.us@gmail.com</li>
-            <li>Wdd 230 - Web and Computer Programming</li>
-        </ul>
-
-        <p class="highlight" id="lastmodified"></p>
-        <p id="lastvisit">Last Visit</p>
+        <div class="footer">
+            <div class="address">
+                <source media="(max-width: 650px)" srcset="images/photoJP.webp 1x">
+                <img src="images/logocommerce.webp" alt="São Paulo" loading="lazy">
+                <h3>São Paulo Chamber of Commerce</h3>
+                <p>
+                    Rua Boa Vista, 51 - Centro - Sao Paulo, SP - Brasil
+                </p>
+                <p>
+                    +55 11 3180-3180
+                </p>
+            </div>
+            <div class="contact">
+                <a href="spchamber@acsp.com.br"><img src="images/email.PNG" alt="email" /></a>
+                <a href="https://www.linkedin.com/showcase/spchamber/"><img src="images/linkedin.PNG" alt="email" /></a>
+                <a href="https://www.facebook.com/spchamberoficial/?_rdc=2&_rdr"><img src="images/facebook.png"
+                        alt="Facebook image" /></a>
+                <a href="https://www.google.com/maps/place/R.+Boa+Vista,+51+-+Centro+Hist%C3%B3rico+de+S%C3%A3o+Paulo,+S%C3%A3o+Paulo+-+SP,+01014-911/@-23.5473202,-46.6356465,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce58553732607b:0x5bc4668b6d43f8cb!8m2!3d-23.5473251!4d-46.6334578!16s%2Fg%2F11b8v78bq8"
+                    target="_blank"><img src="images/location.png"></a>
+            </div>
+            <div class="credit">
+                <p class="fb">
+                    <strong>&copy; <span class="fyear"></span> São Paulo Chamber <br />
+                        Néfi Leite <br />
+                        Wdd 230 - Web and Computer Programming <br />
+                        Last Modification: <span class="fMod"></span>
+                    </strong>
+                </p>
+                <p class="fm">
+                    <strong>&copy; <span class="fyear"></span> Néfi Leite| Wdd 230 - Web and Computer Programming |
+                        <br />
+                        Last Modification: <span class="fMod"></span>
+                    </strong>
+                </p>
+                <p class="fl">
+                    <strong>&copy; <span class="fyear"></span> Néfi Leite | Wdd 230 - Web and Computer Programming |
+                        Last
+                        Modification:
+                        <span class="fMod"></span>
+                    </strong>
+                </p>
+                <p>
+                    Weather source
+                    <a href="https://openweathermap.org/city/3448439" target="_blank">@OpenWeather</a>
+                </p>
+            </div>
+        </div>
     </footer>
+    <script src="js/script.js" defer></script>
+    <script src="js/lazyload.js" defer></script>
 
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/darkmode.js"></script>
-    <script src="scripts/getdates.js"></script>
-    <script src="scripts/lastvisit.js"></script>
 </body>
 
 </html>
