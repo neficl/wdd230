@@ -20,7 +20,7 @@ function chills(cTemp, kmSpeed) {
 }
 
 const apiURL =
-    "https://api.openweathermap.org/data/2.5/weather?q=Uyo&units=metric&appid=1da99388e86d2e97825559d74b18e860";
+    "";
 
 fetch(apiURL)
     .then((response) => response.json())
