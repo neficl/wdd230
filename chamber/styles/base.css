@@ -247,14 +247,6 @@ header ul a:active {
     color: black;
 }
 
-.join {
-    display: none;
-}
-
-.join img {
-    width: 100%;
-}
-
 .hero {
     grid-row: 1;
 }
