@@ -42,7 +42,7 @@
             "city": "Barueri, Sao Paulo",
             "number": "3003 0101",
             "website": "https://www.boavistaservicos.com.br/",
-            "membership": "gold"
+            "membership": "Gold"
         },
         {
             "name": "Faculdade do Comércio",
@@ -75,7 +75,7 @@
             "city": "Anapolis",
             "number": "(62) 9 3943-8080",
             "website": "https://www.tempotelecom.com.br/",
-            "membership": "Silver"
+            "membership": "Gold"
         },
         {
             "name": "Tempo Telecom",
@@ -108,7 +108,7 @@
             "city": "Barueri, Sao Paulo",
             "number": "3003 0101",
             "website": "https://www.boavistaservicos.com.br/",
-            "membership": "gold"
+            "membership": "Free"
         },
         {
             "name": "ACCREDITO",
@@ -119,7 +119,7 @@
             "city": "Sao Paulo",
             "number": " 0800 070 7880",
             "website": "https://www.accreditodigital.com.br/",
-            "membership": "Bronze"
+            "membership": "Silver"
         }
     ]
 }
