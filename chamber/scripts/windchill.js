@@ -21,7 +21,7 @@ function chills(cTemp, kmSpeed) {
 }
 
 const apiURL =
-    'https://api.openweathermap.org/data/2.5/weather?q=Sao Paulo&units=metric&appid=a06d7028879dc658f6cc783a421dc265';
+    'https://api.openweathermap.org/data/2.5/weather?q=Santos&units=metric&appid=a06d7028879dc658f6cc783a421dc265';
 
 fetch(apiURL)
     .then((response) => response.json())
