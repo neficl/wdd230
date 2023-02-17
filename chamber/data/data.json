@@ -20,20 +20,22 @@
             "link": "https://acsp.com.br/publicacao/s/empresas-coligadas"
         },
         {
-            "title": "Company History",
-            "link": "https://acsp.com.br/publicacao-institucional/s/historia"
+            "title": "Printed",
+            "link": "https://acsp.com.br/assessoria-de-imprensa"
         },
         {
-            "title": "Values",
-            "link": "https://acsp.com.br/missao-visao-e-valores"
+            "title": "Tax Meter",
+            "link": "https://impostometro.com.br/"
         },
         {
-            "title": "Message from the President",
-            "link": "https://acsp.com.br/mensagem-do-presidente"
+            "title": "Associate in the company",
+            "link": "https://acsp.com.br/lp-associativismo"
         }
     ],
+
     "businesses": [{
             "name": "Boa Vista",
+            "email": "info@gmail.com",
             "decscription": "Organize your company's financial health",
             "imageurl": "images/boavistaa.png",
             "street": "Av. Tamboré, 267",
@@ -44,16 +46,62 @@
         },
         {
             "name": "Faculdade do Comércio",
-            "decscription": "Official college of the Confederation of Commercial and Business Associations of Brazil (CACB)",
+            "email": "info@gmail.com",
+            "decscription": "Official college of the Confederation of Commercial",
             "imageurl": "images/facsp.png",
-            "street": "Rua Boa Vista, 51, São Paulo",
+            "street": "Rua Boa Vista, 51, Sao Paulo",
             "city": "Sao Paulo",
             "number": "(11) 9 9740-4002",
             "website": "https://www.facsp.com.br/",
-            "membership": "gold"
+            "membership": "Gold"
+        },
+        {
+            "name": "ACCREDITO",
+            "email": "info@gmail.com",
+            "decscription": "ACCredito offers loans designed exclusively for micro and small companies and MEI.",
+            "imageurl": "images/logo-credito.png",
+            "street": "Rua Boa Vista, 51, Sao Paulo",
+            "city": "Sao Paulo",
+            "number": " 0800 070 7880",
+            "website": "https://www.accreditodigital.com.br/",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Tempo Telecom",
+            "email": "info@gmail.com",
+            "decscription": "A technology company with almost 30 years of activity, Tempo Telecom develops corporate projects in the area of mobile telephony and telecommunications.",
+            "imageurl": "images/logo-tempo.png",
+            "street": "Rua 23 de Maio Qd JK, Lote 02, n°10, Anapolis - GO",
+            "city": "Anapolis",
+            "number": "(62) 9 3943-8080",
+            "website": "https://www.tempotelecom.com.br/",
+            "membership": "Silver"
+        },
+        {
+            "name": "Tempo Telecom",
+            "email": "info@gmail.com",
+            "decscription": "A technology company with almost 30 years of activity, Tempo Telecom develops corporate projects in the area of mobile telephony and telecommunications.",
+            "imageurl": "images/logo-tempo.png",
+            "street": "Rua 23 de Maio Qd JK, Lote 02, n°10, Anapolis - GO",
+            "city": "Anapolis",
+            "number": "(62) 9 3943-8080",
+            "website": "https://www.tempotelecom.com.br/",
+            "membership": "Silver"
+        },
+        {
+            "name": "Empresas",
+            "email": "info@gmail.com",
+            "decscription": "Companys",
+            "imageurl": "images/logocommerce.webp",
+            "street": "Rua Boa Vista, 51, Sao Paulo",
+            "city": "Sao Paulo",
+            "number": "30030101",
+            "website": "https://acsp.com.br/publicacao/s/empresas-coligadas",
+            "membership": "silver"
         },
         {
             "name": "Boa Vista",
+            "email": "info@gmail.com",
             "decscription": "Organize your company's financial health",
             "imageurl": "images/boavistaa.png",
             "street": "Av. Tamboré, 267",
@@ -63,94 +111,15 @@
             "membership": "gold"
         },
         {
-            "name": "Faculdade do Comércio",
-            "decscription": "Official college of the Confederation of Commercial and Business Associations of Brazil (CACB)",
-            "imageurl": "images/facsp.png",
-            "street": "Rua Boa Vista, 51, São Paulo",
+            "name": "ACCREDITO",
+            "email": "info@radiantoakng.com",
+            "decscription": "ACCredito offers loans designed exclusively for micro and small companies and MEI.",
+            "imageurl": "images/logo-credito.png",
+            "street": "Rua Boa Vista, 51, Sao Paulo",
             "city": "Sao Paulo",
-            "number": "(11) 9 9740-4002",
-            "website": "https://www.facsp.com.br/",
-            "membership": "gold"
-        },
-        {
-            "name": "Boa Vista",
-            "decscription": "Organize your company's financial health",
-            "imageurl": "images/boavistaa.png",
-            "street": "Av. Tamboré, 267",
-            "city": "Barueri, Sao Paulo",
-            "number": "3003 0101",
-            "website": "https://www.boavistaservicos.com.br/",
-            "membership": "gold"
-        },
-        {
-            "name": "Faculdade do Comércio",
-            "decscription": "Official college of the Confederation of Commercial and Business Associations of Brazil (CACB)",
-            "imageurl": "images/facsp.png",
-            "street": "Rua Boa Vista, 51, São Paulo",
-            "city": "Sao Paulo",
-            "number": "(11) 9 9740-4002",
-            "website": "https://www.facsp.com.br/",
-            "membership": "gold"
-        },
-        {
-            "name": "Boa Vista",
-            "decscription": "Organize your company's financial health",
-            "imageurl": "images/boavistaa.png",
-            "street": "Av. Tamboré, 267",
-            "city": "Barueri, Sao Paulo",
-            "number": "3003 0101",
-            "website": "https://www.boavistaservicos.com.br/",
-            "membership": "gold"
-        },
-        {
-            "name": "Faculdade do Comércio",
-            "decscription": "Official college of the Confederation of Commercial and Business Associations of Brazil (CACB)",
-            "imageurl": "images/facsp.png",
-            "street": "Rua Boa Vista, 51, São Paulo",
-            "city": "Sao Paulo",
-            "number": "(11) 9 9740-4002",
-            "website": "https://www.facsp.com.br/",
-            "membership": "gold"
-        },
-        {
-            "name": "Boa Vista",
-            "decscription": "Organize your company's financial health",
-            "imageurl": "images/boavistaa.png",
-            "street": "Av. Tamboré, 267",
-            "city": "Barueri, Sao Paulo",
-            "number": "3003 0101",
-            "website": "https://www.boavistaservicos.com.br/",
-            "membership": "gold"
-        },
-        {
-            "name": "Faculdade do Comércio",
-            "decscription": "Official college of the Confederation of Commercial and Business Associations of Brazil (CACB)",
-            "imageurl": "images/facsp.png",
-            "street": "Rua Boa Vista, 51, São Paulo",
-            "city": "Sao Paulo",
-            "number": "(11) 9 9740-4002",
-            "website": "https://www.facsp.com.br/",
-            "membership": "gold"
-        },
-        {
-            "name": "Boa Vista",
-            "decscription": "Organize your company's financial health",
-            "imageurl": "images/boavistaa.png",
-            "street": "Av. Tamboré, 267",
-            "city": "Barueri, Sao Paulo",
-            "number": "3003 0101",
-            "website": "https://www.boavistaservicos.com.br/",
-            "membership": "gold"
-        },
-        {
-            "name": "Faculdade do Comércio",
-            "decscription": "Official college of the Confederation of Commercial and Business Associations of Brazil (CACB)",
-            "imageurl": "images/facsp.png",
-            "street": "Rua Boa Vista, 51, São Paulo",
-            "city": "Sao Paulo",
-            "number": "(11) 9 9740-4002",
-            "website": "https://www.facsp.com.br/",
-            "membership": "gold"
+            "number": " 0800 070 7880",
+            "website": "https://www.accreditodigital.com.br/",
+            "membership": "Bronze"
         }
     ]
 }
