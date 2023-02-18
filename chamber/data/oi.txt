@@ -1,0 +1,44 @@
+[{
+            "name": "Boa Vista",
+            "email": "info@gmail.com",
+            "decscription": "Organize your company's financial health",
+            "imageurl": "images/boavistaa.png",
+            "street": "Av. Tamboré, 267",
+            "city": "Barueri, Sao Paulo",
+            "number": "3003 0101",
+            "website": "https://www.boavistaservicos.com.br/",
+            "membership": "Gold"
+        },
+        {
+            "name": "Faculdade do Comércio",
+            "email": "info@gmail.com",
+            "decscription": "Official college of the Confederation of Commercial",
+            "imageurl": "images/facsp.png",
+            "street": "Rua Boa Vista, 51, Sao Paulo",
+            "city": "Sao Paulo",
+            "number": "(11) 9 9740-4002",
+            "website": "https://www.facsp.com.br/",
+            "membership": "Gold"
+        },
+        {
+            "name": "ACCREDITO",
+            "email": "info@gmail.com",
+            "decscription": "ACCredito offers loans designed exclusively for micro and small companies and MEI.",
+            "imageurl": "images/logo-credito.png",
+            "street": "Rua Boa Vista, 51, Sao Paulo",
+            "city": "Sao Paulo",
+            "number": " 0800 070 7880",
+            "website": "https://www.accreditodigital.com.br/",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Tempo Telecom",
+            "email": "info@gmail.com",
+            "decscription": "A technology company with almost 30 years of activity, Tempo Telecom develops corporate projects in the area of mobile telephony and telecommunications.",
+            "imageurl": "images/logo-tempo.png",
+            "street": "Rua 23 de Maio Qd JK, Lote 02, n°10, Anapolis - GO",
+            "city": "Anapolis",
+            "number": "(62) 9 3943-8080",
+            "website": "https://www.tempotelecom.com.br/",
+            "membership": "Gold"
+        }
